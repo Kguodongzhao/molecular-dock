@@ -1,0 +1,35 @@
+{
+  "_instructions": [
+    "Copy this file to config/docking.local.json.",
+    "Update the receptor paths, ligand root, groups, docking center, and box size before running."
+  ],
+  "project_name": "Generic protein-ligand docking",
+  "vina_relative_path": "tools/vina.exe",
+  "prepared_receptor": "data/receptor/receptor_prep.pdbqt",
+  "display_receptor": "data/receptor/receptor_prep.pdb",
+  "prepared_ligand_root": "data/ligands_pdbqt",
+  "default_output_root": "results/current_run",
+  "groups": [
+    "DEFAULT"
+  ],
+  "invalid_cases": [],
+  "unsupported_cases": [],
+  "max_flexible_torsions": 32,
+  "docking": {
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "size": [
+      20.0,
+      20.0,
+      20.0
+    ],
+    "exhaustiveness": 8,
+    "num_modes": 9,
+    "energy_range": 3,
+    "seed": 42,
+    "cpu_per_job": 1
+  }
+}

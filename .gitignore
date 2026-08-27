@@ -1,0 +1,72 @@
+# Generated docking results
+/results/
+/preprocessing/output/
+
+# Python caches and test artifacts
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Temporary files
+*.tmp
+*.tmp.pdbqt
+*.log
+
+# Local Python environments and secrets
+.venv/
+venv/
+.env
+.env.*
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Platform-specific binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Private/local scientific inputs
+/data/**
+!/data/README.md
+/inputs/**
+!/inputs/README.md
+
+# Local project-specific configurations
+/config/local/
+/config/*.local.json
+
+# Molecular structure files are local/private data
+*.pdb
+*.pdbqt
+*.mol
+*.mol2
+*.sdf
+*.sd
+*.cif
+*.mmcif
+*.ent
+*.smi
+*.smiles
+*.inchi
+*.xyz
+*.pdb.gz
+*.cif.gz
+*.sdf.gz
+
+# Generated preprocessing metadata
+*_metadata.json
+*_docking_config_snippet.json
+*_vina_box.txt
+preprocessing_results.tsv
+preprocessing_summary.json
+
+# Legacy local documentation with project-specific paths
+/preprocessing/运行操作手册.md
